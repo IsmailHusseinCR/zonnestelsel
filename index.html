@@ -1,0 +1,120 @@
+<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+<a-assets>
+  <img id="sky" src="http://www.eso.org/public/archives/images/screen/eso1501a.jpg">
+</a-assets>
+
+
+   <!-- Moeder Aarde-->
+<a-scene>
+   <a-sky src="#sky"></a-sky> 
+  <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" radius="2" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="15000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+  
+      <!-- Maan-->
+
+  <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/moon_1024.jpg" radius="2" position="1 1 2" scale="0.1 0.1 0.1" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">\
+    </a-animation>
+   </a-sphere> 
+
+   <!-- Jupiter-->
+
+   <a-sphere src="jupiter.jpg" radius="2" position="38 0 0" scale="5 5 5" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+    <!-- Saturnus-->
+
+   <a-sphere src="saturn.jpg" radius="2" position="68 0 0" scale="2.5 2.5 2.5" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+   <a-sphere src="uranus.jpg" radius="2" position="88 0 0" scale="3 3 3" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+   <a-sphere src="neptune.jpg" radius="2" position="120 0 0" scale="3.5 3.5 3.5" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+      <!-- Mars-->
+  
+   <a-sphere src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Mars_%284997052786%29.jpg" radius="2" position="12 0 0" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+      <!-- Venus-->
+
+   <a-sphere src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Venus_%28NASA%29_-_39_%284996849550%29.jpg" radius="2" position="-8 0 0" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+      <!-- Mercurius-->
+
+   <a-sphere src="mercury.jpg" radius="2" position="-16 0 0" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="10000"
+        to="0 360 0"
+        ease= "linear"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+      <!-- Main source of energy of life Sun-->
+
+
+   <a-sphere src="sun.jpg" radius="2" position="-40 0 0" scale="10 10 10" segments-height="84">
+    <a-animation attribute="rotation"
+        dur="5000"
+        to="0 360 0"
+        ease= "ease-in-out"
+        repeat="infinite">
+    </a-animation>
+   </a-sphere> 
+
+
+  <a-camera position='0 0 10' user-height='0'></a-camera>
+
+</a-scene>
+
+<!-- http://www.eso.org/public/archives/images/screen/eso1501a.jpg -->
